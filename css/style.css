@@ -25,9 +25,7 @@
     justify-content: space-between;
     height: 97%;
 }
-.footer-dp{
-    align-self
-}
+
 .main-container{
     flex:1 1 90%;
     padding: 1rem 1.8rem ;
