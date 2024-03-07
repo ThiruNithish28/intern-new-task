@@ -8,14 +8,29 @@
     font-size: 62.5%;
     --bg-color:#FBF8E9;
     --checked-clr:#34A853;
-
+    --footer-input-box-clr:#F2F1F0;
 
 }
 
+
 .side-nav{
-    height:100vh;
-    padding: 1rem 2em;
+    flex: 1 1 10%;
+    padding: 1rem;
+    justify-items: center;
     background-color:var(--bg-color);
+}
+.sub-container-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 97%;
+}
+.footer-dp{
+    align-self
+}
+.main-container{
+    flex:1 1 90%;
+    padding: 1rem 1.8rem ;
 }
 .blank-box{
     width:25px;
@@ -71,4 +86,13 @@
 }
 .bottom-content{
     text-align: center;
+}
+
+.footer-table div > label{
+    font-weight: bold;
+}
+.footer-table div > input{
+    border:1px solid rgba(128, 128, 128, 0.774);
+    border-radius: 2.8px;
+    background-color:var(--footer-input-box-clr);
 }
