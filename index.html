@@ -15,16 +15,16 @@
 <body>
     <main class="d-flex">
         <section class="side-nav d-flex justify-content-center">
-            <div class="nav-container d-flex-col">
+            <div class="nav-container">
 
-                <div>
-                    <button>
-                        <img src="./assets/svg/double arrow.svg" alt="home-btn">
+                <div class="d-flex justify-content-center mb-5">
+                    <button class="btn">
+                        <img src="./assets/svg/double arrow.svg" alt="arrow-btn">
                     </button>
                 </div>
                 <div class="sub-container-nav">
                     <div>
-                        <button class="mb-3 mt-3">
+                        <button class="btn mb-3 mt-3">
                             <img src="./assets/svg/home btn.svg" alt="home-btn">
                         </button>
                         <div class="blank-box"></div>
@@ -40,18 +40,18 @@
 
             </div>
         </section>
-        <section class="main-container d-flex-col">
+        <section class="main-container d-flex-col ">
             <div class="main-nav">
                 <nav class="d-flex justify-content-between">
-                    <div class="dp-container d-flex">
+                    <div class="dp-container d-flex gap-3">
                         <img src="./assets/images/Rectangle 140.png" alt="dp">
                         <div class="dp-intro">
                             <h2>Max Mustermann</h2>
-                            <p>Supervisor</p>
+                            <p class="sub-intro">Supervisor</p>
                         </div>
                     </div>
-                    <div class="d-flex">
-                        <div class="translator d-flex">
+                    <div class="d-flex gap-3">
+                        <div class="translator d-flex ">
                             <img src="./assets/svg/translater icon.svg" alt="translate">
                             <p>DE</p>
                             <img src="./assets/svg/arrow.svg" alt="arrow">
@@ -72,7 +72,7 @@
                     </div>
                 </nav>
             </div>
-            <div>
+            <div class="mt-5">
                 <h1>Kontrollsheet X-Ray Geräte</h1>
 
                 <table class="table table-bordered">
@@ -171,7 +171,7 @@
 
             </div>
 
-            <div>
+            <div class="mt-5">
                 <h1>Folgendes Wurde auf Funktion oder Beschädigung überprüft:</h1>
 
                 <table class="table table-bordered">
@@ -195,7 +195,9 @@
                                     value="something" unchecked>
 
                             </td>
-                            <td>@mdo</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
                         <tr>
                             <td scope="row">Förderband/ Rollen beschädigt</td>
@@ -203,7 +205,9 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@fat</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
                         <tr>
                             <td scope="row">Notausschalter vorhanden und nicht gedrückt</td>
@@ -211,7 +215,9 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@twitter</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
 
                         <tr>
@@ -220,7 +226,9 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@twitter</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
 
                         <tr>
@@ -229,7 +237,9 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@twitter</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
 
                         <tr>
@@ -238,7 +248,9 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@twitter</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
 
                         <tr>
@@ -247,19 +259,21 @@
                                     value="something" unchecked></td>
                             <td> <input class="form-check-input" type="checkbox" id="check1" name="Horizontal-View"
                                     value="something" unchecked></td>
-                            <td>@twitter</td>
+                            <td>
+                                <input type="text" name="feedback" id="" class="feedback-input">
+                            </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
-            <div class="bottom-content">
+            <div class="bottom-content mt-5">
                 <p>Die oben aufgeführten Funktionen müssen täglich überprüft und mindestens einmal wöchentlich
                     dokumentiert werden! Sollten Beschädigungen an den Anlagen auftreten, ist umgehend die DHL Aufsicht
                     und der Strahlenschutzbeauftragte zu informieren.</p>
             </div>
 
-            <div class="footer-table d-flex justify-content-between">
+            <div class="footer-table d-flex justify-content-between mt-5">
                 <div class="d-flex gap-3">
                     <label for="name">Name/ Unterschrift KP:</label>
                     <input type="text" name="name" id="name">

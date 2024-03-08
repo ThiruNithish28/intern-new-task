@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +11,18 @@
     --bg-color:#FBF8E9;
     --checked-clr:#34A853;
     --footer-input-box-clr:#F2F1F0;
-
+    --font-ff: "Inter", sans-serif;
 }
 
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    font: 1.6rem var(--font-ff);
+    font-optical-sizing: auto;
+
+}
 
 .side-nav{
     flex: 1 1 10%;
@@ -22,25 +33,46 @@
 .sub-container-nav{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: space-between;
     height: 97%;
 }
-
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .main-container{
     flex:1 1 90%;
     padding: 1rem 1.8rem ;
+    
 }
+
 .blank-box{
-    width:25px;
+    width:32px;
     aspect-ratio: 1/1;
     margin-bottom: 1rem;
     background-color: grey;
+}
+
+.translator{
+    align-items: center;
+    justify-content: center;
+    height:fit-content;
+    padding: 1rem;
+    gap: .5rem;
+    background-color: rgba(175, 212, 224, 0.664);
+}
+.translator p{
+    margin: 0;
 }
 .view-options{
     padding: .5rem 1rem;
     background-color: var(--bg-color);
     width: max-content;
 }
+
+
 .form-check{
     
     width:100%;
@@ -67,6 +99,13 @@
     padding-right: 4rem;
 } */
 
+.dp-container img{
+    width: 39px;
+    aspect-ratio: 1.5/1;
+}
+.dp-intro .sub-intro{
+    color: grey;
+}
 
 .form-check-input{
     width:13px;
@@ -93,4 +132,8 @@
     border:1px solid rgba(128, 128, 128, 0.774);
     border-radius: 2.8px;
     background-color:var(--footer-input-box-clr);
+}
+.feedback-input{
+    width: 100%;
+    border: 0;
 }
