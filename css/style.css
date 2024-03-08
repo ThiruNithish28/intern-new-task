@@ -52,7 +52,7 @@ body{
     width:32px;
     aspect-ratio: 1/1;
     margin-bottom: 1rem;
-    background-color: grey;
+    background-color: lightgray;
 }
 
 .translator{
@@ -77,6 +77,7 @@ body{
     padding:.3rem 2rem;
     margin-top: 2rem;
 }
+
 .form-check{
     
     width:100%;
@@ -98,10 +99,7 @@ body{
     margin-right: 13px;
     padding-right: 11.8px;
 }
-/* td .form-check > .form-check-label{
-    margin-right: 3rem;
-    padding-right: 4rem;
-} */
+
 
 .dp-container img{
     width: 39px;
