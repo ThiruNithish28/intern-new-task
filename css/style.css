@@ -72,7 +72,11 @@ body{
     width: max-content;
 }
 
-
+.table1-head{
+    font-weight: bold;
+    padding:.3rem 2rem;
+    margin-top: 2rem;
+}
 .form-check{
     
     width:100%;
